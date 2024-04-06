@@ -4,7 +4,7 @@
 
 @section('content')
 
-<main id="profiles">
+<main id="profiles" class="w3-animate-fading">
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
@@ -20,7 +20,7 @@
     </section><!-- End Breadcrumbs -->
 
     <section id="profiles-ppsakk" class="arti-lambang">
-      <img src="{{asset('assets/imgs/logo.png')}}" alt="" class="img-fluid">
+      <img src="{{asset('assets/imgs/logo.png')}}" alt="" class="animate__animated zoom-in img-fluid">
       <h2 class="judul"><b>MAKNA LAMBANG PADA LOGO PPSAKK</b></h2>
       <p>PPSAKK memiliki LOGO dengan warna dasar Kuning emas, 
         berbentuk delapan padma dengan tujuh buah tombak. Di salah satu ruas 
@@ -52,13 +52,6 @@
           Selem ini adalah anugerah Dalem sewaktu Kyayi Klapodiyana berhasil 
           membunuh harimau hitam di Blambangan Jawa Timur. </p>
       </div>
-
-
-
-
-
-
-
     </section>
 </main>
 

@@ -27,9 +27,6 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-
-          <div class="col-lg-8 entries">
-
             <article class="entry entry-single">
 
               <div class="entry-img">
@@ -208,62 +205,24 @@
             </article><!-- End blog entry -->
 
             <div class="blog-author d-flex align-items-center">
-              <!-- <i  class="bi bi-person  rounded-circle float-left" alt=""></i> -->
-              <img src="assets/img/person-gray.png" class="rounded-circle float-left" alt="">
-              <div>
-                <h4>I Made Pageh Suardhana</h4>
-                <p>
-                  Sumber : Lampiran V Buku Babad Sira Arya Kuthawaringin-Kubontubuh 
-                  Edisi II-2007, halaman 132-135 beserta buku-buku acuan yang sudah 
-                  disebutkan dalam uraian diatas.
-                </p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-1">
+                    <div class="img-author">
+                                          <i  class="bi bi-person-circle" alt=""></i>
+                    <!-- <img src="{{asset('assets/imgs/person-gray.png')}}" class="rounded-circle float-left" alt=""> -->
+                    </div>
+                  </div>
+                  <div class="col-11 nm-author">
+                    <h4>I Made Pageh Suardhana</h4>
+                    <p>Sumber : Lampiran V Buku Babad Sira Arya Kuthawaringin-Kubontubuh 
+                      Edisi II-2007, halaman 132-135 beserta buku-buku acuan yang sudah 
+                      disebutkan dalam uraian diatas.</p>
+                  </div>
+                </div>
               </div>
             </div><!-- End blog author bio -->
-
           </div><!-- End blog entries list -->
-
-          <div class="col-lg-4">
-
-            <div class="sidebar">
-              <h3 class="sidebar-title">Recent Posts</h3>
-              <div class="sidebar-item recent-posts">
-                <div class="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-1.jpg" alt="">
-                  <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-
-                <div class="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-2.jpg" alt="">
-                  <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-
-                <div class="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-3.jpg" alt="">
-                  <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-
-                <div class="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-4.jpg" alt="">
-                  <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-
-                <div class="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-5.jpg" alt="">
-                  <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-
-              </div><!-- End sidebar recent posts-->
-
-            </div><!-- End sidebar -->
-
-          </div><!-- End blog sidebar -->
-
-        </div>
 
       </div>
     </section><!-- End Blog Section -->

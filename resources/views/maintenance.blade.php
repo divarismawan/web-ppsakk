@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Under Construction</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <style>
-    body {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #333; /* Warna latar belakang lebih gelap */
-      color: #fff; /* Warna teks lebih terang */
-    }
-    .container {
-      text-align: center;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Under Maintenance</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2b2b2b; /* Warna background yang lebih gelap */
+    font-family: Arial, sans-serif;
+  }
+
+  .maintenance-container {
+    text-align: center;
+    color: white; /* Warna teks putih untuk kontras dengan latar belakang gelap */
+  }
+
+  .maintenance-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .loader {
+    width: 100%; /* Lebar sesuai dengan lebar website */
+    height: 20px;
+    -webkit-mask: linear-gradient(90deg, #000 70%, #0000 0) left/20% 100%;
+    background: linear-gradient(#000 0 0) left -25% top 0 /20% 100% no-repeat #333; /* Background yang lebih gelap */
+    animation: l7 1s infinite steps(6);
+    margin-top: 20px;
+  }
+
+  @keyframes l7 {
+    100% { background-position: right -25% top 0; }
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1 class="display-4">Under Construction</h1>
-    <p class="lead">We're sorry for the inconvenience, but we're performing some maintenance at the moment. Please check back soon.</p>
-    <img src="{{asset('assets/imgs/mt.gif')}}" alt="Under Construction" class="mt-3" style="max-width: 300px;">
+  <div class="maintenance-container">
+    <div class="maintenance-text">Sorry, this page under development.</div>
+    <div class="loader"></div>
   </div>
 </body>
 </html>

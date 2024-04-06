@@ -33,7 +33,14 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+main{
+  /* background-color: #f7fcfe; */
+}
 
+tab{
+  display: inline-block;
+  padding-left: 20px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -71,7 +78,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: white;
+  background: #fdfff5;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -655,16 +662,18 @@ section {
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 6px;
+  /* border-style: solid;
+  border-color: #0000004b; */
 }
 
-.services .icon-box i {
+/* .services .icon-box i {
   float: left;
   color: #d9232d;
   font-size: 40px;
-}
+} */
 
 .services .icon-box h4 {
-  margin-left: 70px;
+  /* margin-left: 70px; */
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -676,9 +685,10 @@ section {
 }
 
 .services .icon-box p {
-  margin-left: 70px;
+  /* margin-left: 70px; */
   line-height: 24px;
   font-size: 14px;
+  text-align: justify;
 }
 
 .services .icon-box:hover h4 a {
@@ -937,14 +947,28 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Arti Lambang
+# Profiles
 --------------------------------------------------------------*/
 #profiles{
   background-color: #e9e9e946;
   position: relative;
   width: 100%;
   height: 100%;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
 
 #profiles-ppsakk{
   padding: 20px;
@@ -952,21 +976,12 @@ section {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
-}
-
-#profiles-ppsakk img{
-  height: auto;
-  width: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-
+  background-color: #fdfff5;
 }
 
 #profiles-ppsakk .judul{
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #profiles-ppsakk p{
@@ -978,11 +993,27 @@ section {
   text-justify: inter-word;
 }
 
-#profiles-ppsakk .detail-arti{
+#profiles-ppsakk .indent-p{
   padding-left: 4%;
 }
 
+.arti-lambang img{
+  height: auto;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
 
+.sejarah img{
+  height: auto;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
 
 /*--------------------------------------------------------------
 # Blog
@@ -994,7 +1025,7 @@ section {
 .blog .entry {
   padding: 30px;
   margin-bottom: 60px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .blog .entry .entry-img {
@@ -1171,40 +1202,52 @@ section {
 }
 
 .blog .entry-single {
+  width: 1000px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blog .blog-author {
-  padding: 20px;
+  width: 1000px;
+  /* padding: 20px; */
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #fcf9f9; */
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
-.blog .blog-author img {
-  width: 120px;
-  margin-right: 20px;
+.blog .blog-author .img-author {
+  width: 100%;
+  height: 100%;
+  /* margin-right: 20px; */
+  
+  font-size: 60px;
+  color: #949596;
+  /* margin-right: 20px; */
+  /* position: relative; */
 }
 
 .blog .blog-author h4 {
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 0px;
-  padding: 0;
-  color: #556270;
-}
-
-.blog .blog-author .social-links {
-  margin: 0 10px 10px 0;
-}
-
-.blog .blog-author .social-links a {
-  color: rgba(85, 98, 112, 0.5);
-  margin-right: 5px;
+  padding-top: 15px;
+  color: #2d3031;
+  padding-left: 10px;
 }
 
 .blog .blog-author p {
   font-style: italic;
-  color: #b7b7b7;
+  color: #949596;
+  padding-left: 10px;
+}
+
+@media (max-width:800px) {
+  .blog .blog-author .nm-author{
+    padding-left: 40px;
+  }
 }
 
 .blog .blog-pagination {
@@ -1308,15 +1351,19 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+  width: 100%;
+  /* position: fixed; */
   background: #4a5562;
-  padding: 0 0 30px 0;
+  left: 0;
+  bottom: 0;
+  padding: 0 0 10px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #515d6a;
-  padding: 60px 0 30px 0;
+  background: #2b2b2b;
+  padding: 30px 0 0px 0;
 }
 
 #footer .footer-top .footer-info {

@@ -79,8 +79,9 @@
                 <div class="post-laporan">
                   <i class="bi bi-file-earmark-pdf"></i>
                   <div class="post-item clearfix">
-                    <h4><a href="blog-single.html">Laporan PPSAKK Kegiatan Penataran Pemangku Maret 2021</a></h4>
-                    <time datetime="2020-01-01">Jan 1, 2020</time>
+                    <h4><a href="assets/docs/PPSAKK Laporan Kegiatan Penataran Pemangku Maret 2021.pdf" download>
+                      Laporan PPSAKK Kegiatan Penataran Pemangku Maret 2021</a></h4>
+                    <time datetime="2020-01-01">16 Maret 2024</time>
                   </div>
                 </div>
                 
@@ -88,8 +89,9 @@
                   <div class="post-laporan">
                     <i class="bi bi-file-earmark-pdf"></i>
                     <div class="post-item clearfix">
-                      <h4><a href="blog-single.html">Laporan PPSAKK Kegiatan Penataran Pemangku Maret 2021</a></h4>
-                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                      <h4><a href="assets/docs/PPSAKK Buku Panduan Karya 2024.pdf">
+                      PPSAKK Buku Panduan Karya 2024</a></h4>
+                      <time datetime="2020-01-01">16 Maret 2024</time>
                     </div>
                 </div>
 
@@ -97,8 +99,9 @@
                   <div class="post-laporan">
                     <i class="bi bi-file-earmark-pdf"></i>
                     <div class="post-item clearfix">
-                      <h4><a href="blog-single.html">Laporan PPSAKK Kegiatan Penataran Pemangku Maret 2021</a></h4>
-                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                      <h4><a href="assets/docs/PPSAKK  Penataran Pemangku TANTANGAN.....pdf">
+                        PPSAKK  Penataran Pemangku TANTANGAN TERHADAP HINDU BALI</a></h4>
+                      <time datetime="2020-01-01">16 Maret 2024</time>
                     </div>
                 </div>
 
@@ -106,8 +109,9 @@
                   <div class="post-laporan">
                     <i class="bi bi-file-earmark-pdf"></i>
                     <div class="post-item clearfix">
-                      <h4><a href="blog-single.html">Laporan PPSAKK Kegiatan Penataran Pemangku Maret 2021</a></h4>
-                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                      <h4><a href="assets/docs/PPSAKK Laporan Kegiatan Restorasi .pdf">
+                        PPSAKK Laporan Kegiatan Restorasi </a></h4>
+                      <time datetime="2020-01-01">16 Maret 2024</time>
                     </div>
                 </div>
 

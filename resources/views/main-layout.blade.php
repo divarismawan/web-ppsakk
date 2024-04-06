@@ -5,19 +5,19 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PPSAKK - @yield('title')</title>
+  <title>PPSAKK | @yield('title')</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Favicons -->
-  <link href="imgs/logo.png" rel="apple-touch-icon">
-  <link href="imgs/logo.png" rel="icon">
+  <link href="assets/imgs/logo.png" rel="apple-touch-icon">
+  <link href="assets/imgs/logo.png" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   
   <!-- Vendor CSS Files -->
   <link href="{{asset('assets/vendors/animate.css/animate.min.css')}}" rel="stylesheet">
@@ -31,16 +31,16 @@
   <link href="{{asset('assets/fullcalendar/packages/core/main.css')}}" rel='stylesheet' />
   <link href="{{asset('assets/fullcalendar/packages/daygrid/main.css')}}" rel='stylesheet' />
 
-
-
   <!-- Template Main CSS File -->
   <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+  
+
 </head>
 
 <body>
   <header id="header" class="fixed-top d-flex align-items-center bs-dark">
       <div class="container d-flex align-items-center">
-        <img class="logo-ppsakk" src="{{asset('assets/imgs/logo.png')}}">
+        <a href="/"><img class="logo-ppsakk" src="{{asset('assets/imgs/logo.png')}}"></a>
         <h1 class="logo me-auto"><a href="/">PPSAKK</a></h1>
         <nav class="navbar navbar-expand-lg">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
@@ -55,14 +55,14 @@
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="/">Beranda</a>
+                          <a class="nav-link" aria-current="page" href="/">Beranda</a>
                         </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="/maintenance" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Profil
                           </a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/maintenance">Sejarah</a></li>
+                            <li><a class="dropdown-item" href="/sejarah">Sejarah</a></li>
                             <li><a class="dropdown-item" href="/arti-lambang">Arti Lambang</a></li>
                             <li><a class="dropdown-item" href="/maintenance">Kepengurusan</a></li>
                             <li>
@@ -109,7 +109,7 @@
                 <p>
                   Gelgel, Klungkung <br><br>
                   <strong>Phone:</strong> +1 5589 55488 55<br>
-                  <strong>Email:</strong> info@example.com<br>
+                  <strong>Email:</strong>ketutmertha1946@gmail.com<br>
                 </p>
                 <div class="social-links mt-3">
                   <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>

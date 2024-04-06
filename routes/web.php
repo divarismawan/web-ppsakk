@@ -10,6 +10,10 @@ Route::get('/arti-lambang',function(){
     return view('profiles/lambang');
 });
 
+Route::get('/sejarah',function(){
+    return view('profiles/sejarah');
+});
+
 
 
 
