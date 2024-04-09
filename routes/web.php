@@ -14,24 +14,18 @@ Route::get('/sejarah',function(){
     return view('profiles/sejarah');
 });
 
-
-
-
-
 Route::get('/blog', function () {
     return view('blog/blog');
 });
 
-Route::get('/blog/berita', function () {
+Route::get('/blog/pura-padharman', function () {
     return view('blog/detail-blog');
 });
+
 
 Route::get('/calendar', function () {
     return view('calendar');
 });
-
-
-
 
 Route::prefix('admin')->group(function(){
     Route::get('/login-adm', function(){

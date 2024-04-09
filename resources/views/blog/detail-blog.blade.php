@@ -30,7 +30,7 @@
             <article class="entry entry-single">
 
               <div class="entry-img">
-                <img src="{{asset('assets/imgs/besakih.png')}}" alt="" class="img-fluid">
+                <img src="../assets/imgs/besakih.png" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">

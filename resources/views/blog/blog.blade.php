@@ -32,7 +32,7 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="{{asset('assets/imgs/besakih.png')}}" alt="" class="img-fluid">
+                <img src="assets/imgs/besakih.png" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
@@ -54,7 +54,7 @@
                 isi tulisan tersebut menghasilkan kesimpulan seperti disajikan dalam uraian berikut
                 </p>
                 <div class="read-more">
-                  <a href="/blog/berita">Read More</a>
+                  <a href="blog/pura-padharman">Read More</a>
                 </div>
               </div>
 
