@@ -42,7 +42,9 @@
 </head>
 <body>
   <div class="maintenance-container">
-    <div class="maintenance-text">Sorry, this page under development...</div>
+    <div class="maintenance-text">
+    <h1>Sorry, this page under development...</h1>  
+    </div>
     <div class="loader"></div>
   </div>
 </body>
