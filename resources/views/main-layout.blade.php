@@ -64,7 +64,7 @@
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="/sejarah">Sejarah</a></li>
                             <li><a class="dropdown-item" href="/arti-lambang">Arti Lambang</a></li>
-                            <li><a class="dropdown-item" href="/maintenance">Kepengurusan</a></li>
+                            <!-- <li><a class="dropdown-item" href="/maintenance">Kepengurusan</a></li> -->
                             <li>
                             </li>
                           </ul>
